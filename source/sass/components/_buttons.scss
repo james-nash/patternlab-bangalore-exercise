@@ -6,7 +6,7 @@
  * Button
  */
 .c-btn {
-  background: $color-brand-green-dark;
+  background: $color-brand-navy-blue;
   border: 0;
   border-radius: $border-radius;
   color: $color-white;
@@ -20,7 +20,7 @@
 
   &:hover,
   &:focus {
-    background: $color-brand-green;
+    background: $color-brand-navy-blue-20;
     color: $color-white;
   }
 
