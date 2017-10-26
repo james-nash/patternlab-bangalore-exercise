@@ -27,6 +27,13 @@
 $color-brand-green: #5c832f;
 $color-brand-green-dark: #3b4a20;
 
+//Wipro
+$color-brand-navy-blue: #0e3570;
+$color-brand-apple-green: #6dc24b;
+$color-brand-sunny-yellow: #ffda29;
+$color-brand-ruby-red: #ef3341;
+$color-brand-sky-blue: #00a2e0;
+
 /*
  * Neutral Colors
  * 1) Neutral color variables use a numbered system to define variables for better maintainability.
@@ -46,6 +53,11 @@ $color-black: #000;
 $color-dim-50: rgba(0, 0, 0, 0.5);
 $color-dim-70: rgba(0, 0, 0, 0.7);
 
+// Wipro
+$color-brand-white: #ffffff;
+$color-brand-light-grey: #f2f2f2;
+$color-brand-dark-grey: #646363;
+
 /**
  * Utility Colors
  * 1) Utility colors are colors used to provide feedback, such as alert messages,
@@ -59,6 +71,53 @@ $color-utility-negative: #b12a0b;
 $color-utility-negative-subtle: #fdded8;
 $color-utility-neutral: #0192d0;
 $color-utility-neutral-subtle: #d3f2ff;
+
+
+// Wipro
+
+/// Slightly lighten a color
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+$color-brand-navy-blue-80: tint($color-brand-navy-blue, 80%);
+$color-brand-navy-blue-60: tint($color-brand-navy-blue, 60%);
+$color-brand-navy-blue-40: tint($color-brand-navy-blue, 40%);
+$color-brand-navy-blue-20: tint($color-brand-navy-blue, 20%);
+$color-brand-navy-blue-10: tint($color-brand-navy-blue, 10%);
+$color-brand-navy-blue-08: tint($color-brand-navy-blue, 8%);
+
+$color-brand-apple-green-80: tint($color-brand-apple-green, 80%);
+$color-brand-apple-green-60: tint($color-brand-apple-green, 60%);
+$color-brand-apple-green-40: tint($color-brand-apple-green, 40%);
+$color-brand-apple-green-20: tint($color-brand-apple-green, 20%);
+$color-brand-apple-green-10: tint($color-brand-apple-green, 10%);
+$color-brand-apple-green-08: tint($color-brand-apple-green, 8%);
+
+$color-brand-sunny-yellow-80: tint($color-brand-sunny-yellow, 80%);
+$color-brand-sunny-yellow-60: tint($color-brand-sunny-yellow, 60%);
+$color-brand-sunny-yellow-40: tint($color-brand-sunny-yellow, 40%);
+$color-brand-sunny-yellow-20: tint($color-brand-sunny-yellow, 20%);
+$color-brand-sunny-yellow-10: tint($color-brand-sunny-yellow, 10%);
+$color-brand-sunny-yellow-08: tint($color-brand-sunny-yellow, 8%);
+
+$color-brand-ruby-red-80: tint($color-brand-ruby-red, 80%);
+$color-brand-ruby-red-60: tint($color-brand-ruby-red, 60%);
+$color-brand-ruby-red-40: tint($color-brand-ruby-red, 40%);
+$color-brand-ruby-red-20: tint($color-brand-ruby-red, 20%);
+$color-brand-ruby-red-10: tint($color-brand-ruby-red, 10%);
+$color-brand-ruby-red-08: tint($color-brand-ruby-red, 8%);
+
+$color-brand-sky-blue-80: tint($color-brand-sky-blue, 80%);
+$color-brand-sky-blue-60: tint($color-brand-sky-blue, 60%);
+$color-brand-sky-blue-40: tint($color-brand-sky-blue, 40%);
+$color-brand-sky-blue-20: tint($color-brand-sky-blue, 20%);
+$color-brand-sky-blue-10: tint($color-brand-sky-blue, 10%);
+$color-brand-sky-blue-08: tint($color-brand-sky-blue, 8%);
 
 /*
  * Text Colors
