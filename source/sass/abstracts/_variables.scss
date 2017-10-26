@@ -123,28 +123,28 @@ $color-brand-sky-blue-08: tint($color-brand-sky-blue, 8%);
  * Text Colors
  * 1) These are non-linked text colors, such as body copy.
  */
-$color-text: $color-black;
-$color-text-subtle: $color-gray-50;
+$color-text: black;
+$color-text-subtle: $color-brand-dark-grey;
 
 /*
  * Heading Colors
  * 1) These are non-linked heading colors, such as h2, h3, etc.
  */
-$color-heading: $color-black;
-$color-heading-accent: $color-gray-87;
+$color-heading: $color-text;
+$color-heading-accent: $color-brand-dark-grey;
 
 /*
  * Text Link Colors
  * 1) These are for linked text, such as a link found within an article,
  *    navigation link, footer link, etc.
  */
-$color-text-link: $color-gray-87;
-$color-text-link-hover: $color-gray-73;
-$color-text-link-visited: $color-black;
-$color-text-link-active: $color-gray-87;
+$color-text-link: $color-brand-navy-blue;
+$color-text-link-hover: $color-brand-navy-blue-80;
+$color-text-link-visited: $color-brand-sky-blue;
+$color-text-link-active: $color-brand-ruby-red;
 
-$color-text-link-light: $color-white;
-$color-text-link-light-hover: $color-white;
+$color-text-link-light: $color-brand-sky-blue;
+$color-text-link-light-hover: $color-brand-sky-blue-80;
 $color-text-link-light-visited: $color-white;
 
 /*
