@@ -45,8 +45,14 @@
 .sg-swatch {
   display: block;
   height: 4em;
-  margin-bottom: 0.3em;
-  border-radius: 5px;
+  width: 4em;
+  margin: 0 auto 0.3em auto;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.sg-swatch:hover {
+  border: 1px solid #444444;
 }
 
 .sg-label {
