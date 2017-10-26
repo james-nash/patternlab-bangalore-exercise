@@ -162,8 +162,7 @@ $color-border: $color-gray-50;
     #TYPOGRAPHY
 \*------------------------------------*/
 
-$font: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
-$font-secondary: Georgia, Times, 'Times New Roman', serif;
+$font: 'Arial', sans-serif;
 
 $font-size-small: 0.75rem;
 $font-size-small-2: 0.875rem;
@@ -212,7 +211,7 @@ $border-thick: 7px;
 /**
  * Border Radius
  */
-$border-radius: 6px;
+$border-radius: 50px;
 
 
 
@@ -252,3 +251,6 @@ $bp-large-2: 66em;
 $bp-xl: 73em;
 $bp-xxl: 89em;
 $bp-xxxl: 93em;
+
+
+$line-height-default: 1.2;

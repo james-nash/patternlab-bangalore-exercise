@@ -7,17 +7,10 @@
  */
 
 .c-page-header__title {
+  border-bottom: $border-med solid $color-black;
   color: $color-gray-73;
-  padding: 1rem 0 0.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0;
   position: relative;
-
-  &::after {
-    background: $color-gray-35;
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 0.5rem;
-    position: absolute;
-    width: 3rem;
-  }
 }

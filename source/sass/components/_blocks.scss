@@ -45,7 +45,6 @@
   }
 
   @media all and (min-width: $bp-large) {
-    border-radius: $border-radius;
     left: 1rem;
     position: absolute;
     top: 3rem;
@@ -102,10 +101,6 @@
   }
 }
 
-.c-block-media__img {
-  border-radius: $border-radius;
-}
-
 .c-block-media__headline {
   color: $color-gray-65;
   margin-bottom: 0.2em;
@@ -128,7 +123,7 @@
   transition: all $anim-speed-quick $anim-ease;
 
   .c-block-media--small & {
-    line-height: 1.2;
+    line-height: $line-height-default;
     margin-bottom: 0;
   }
 }
@@ -142,7 +137,6 @@
  * 1) The tout block contains an image and headline overlayed over the image.
  */
 .c-block-tout {
-  border-radius: $border-radius;
   display: inline-block;
   margin-bottom: $space-half;
   overflow: hidden;
@@ -189,7 +183,6 @@
 .c-block-tile {
   align-items: center;
   background: $color-dim-50;
-  border-radius: $border-radius;
   color: $color-white;
   display: flex;
   flex-direction: column;
@@ -223,7 +216,7 @@
  */
 .c-block-tile__value {
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: $line-height-default;
 
   /**
 	 * Tile value when inside featured tile parent selector

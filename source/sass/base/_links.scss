@@ -7,8 +7,8 @@
  */
 a {
   color: $color-gray-50;
+  font-weight: normal;
   outline: 0;
-  text-decoration: none;
   transition: all $anim-speed-quick $anim-ease;
 
   &:hover,
